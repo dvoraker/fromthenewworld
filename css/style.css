@@ -6,6 +6,12 @@ body {
 
 }
 
+hr {
+    height : 1px;
+    background-color : #2b2b2b;
+    border : none;
+}
+
 img {
     margin : 20px;
 }

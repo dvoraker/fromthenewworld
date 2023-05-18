@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>From the New World</title>
+</head>
+
+<body>
+    <h1>From the New World</h1>
+    <hr>
+
+    <!--ここに記事タイトル-->
+    <h1>monkeytypeを攻略する</h1>
+
+    <!--ここから本文-->
+    <h3><u>1．ワードリストを入手する</u></h3>
+    <a href="https://github.com/monkeytypegame/monkeytype" target="_blank">monkeytypeのgithubページ</a>にアクセスします。<br>
+    今回入手するのはランキングの対象になっている「english」というワードリストです。<br>
+    以下の場所にあるので、ダウンロードするなりコピペするなりして入手してください。<br>
+    <b>　┗ monkeytype / frontend / static / languages / english.json</b><br>
+    
+    <br>
+    <h3><u>2．単語ごとに分類する</u></h3>
+
+    僕の場合は、<b>「練度が低い単語」「最適化の考慮の余地がある単語」「その他」</b>の3つに分類しました。<br>
+    「その他」のワードについては、最適化の余地がない、かつ、これ以上練度の上げようがない単語たちなので、今回の攻略対象からは外します。<br>
+
+    <font color="red">
+    ※注意：ワードセットに「I（大文字）」が含まれていますが、出題されないので無視してよいです。</font><br>
+
+    <br>
+    <h3><u>3．練度が低い単語を抽出する</u></h3>
+    今回抽出したのは以下の<b>29単語</b>です。分類ごとに見ていきます。<br>
+    <br>
+    <b>【巻き込みミスをしてしまうパターン（計10個）】</b><br>
+    　 - great, each, mean, real, leave, head, lead, increase, early, year<br>
+    dvorak配列は左手に「aoeui」の順で母音が並んでいます。<br>
+    ここで、「ea」のアルペジオ打鍵を行うと、それなりの頻度で「eoa」と打鍵してしまい、巻き込みミスが発生しているのが現状です。<br>
+    <br>
+    <b>【最適化の練習が十分でないパターン（計9個）】</b><br>
+    　 - which, who, when, what, where, like, begin, point, group<br>
+    数週間ほど前に「wキー」を親指で打つという最適化を導入したのですが、<br>
+    まだ日数が経っていず十分に指に染みついていないこともあり、たびたびミスしてしまっています。<br>
+    その他の単語も、最近になって最適化を導入したものです。<br>
+    <br>
+    <b>【アルペジオ打鍵が甘い、左右交互が甘いパターン（計10個）】</b><br>
+    　 - from, first, after, people, against, person, present, again, program, problem<br>
+    これらは、いわゆる「何となく雰囲気で打ってた」みたいな感じの単語たちです。<br>
+    アルペジオ打鍵がぎこちなく、それが原因でロスが発生していたり、左右交互が逆になったりすることがあります。<br>
+    
+    <br>
+    <h3><u>4．最適化の考慮の余地がある単語を抽出する</u></h3>
+    今回抽出したのは以下の<b>5単語</b>です。数も多くないので、一つ一つ見ていきます。<br>
+    <br>
+    ・you …… yを右人差し指で打鍵する<br>
+    ・high …… ghを右中指→右人差し指で打鍵する<br>
+    ・possible …… pを左中指で打鍵する<br>
+    ・play …… pを左中指で打鍵する<br>
+    ・keep …… eを左薬指→pを左中指で打鍵する<br>
+    <br>
+    現時点ではあくまで「考慮の余地がある」単語なだけで、実際に最適化するかは未定です。<br>
+    それでは、具体的にどの単語を最適化し、どの単語は最適化しないでおくか、決めていきます。<br>
+    <br>
+    ・you …… yを右人差し指で取ることはしない、と決めているのでスルー<br>
+    ・high …… 新たに最適化する！<br>
+    ・possible …… 最適化の恩恵が少ないので、スルー<br>
+    ・play …… 最適化の恩恵が少ないので、スルー<br>
+    ・keep …… リスクが高いので、スルー<br>
+
+    <br>
+    <h3><u>5．練習が必要な単語をmonkeytypeのcustom機能に登録する</u></h3>
+    monkeytypeには自分で単語や文章を設定して練習できる「custom」モードがあるので、<br>
+    今回はそれを使って練習していきます。<br>
+    <img src="img/monkeytype_custom機能1.jpg"><br>
+    メニューから「custom」を選ぶと「custom」モードになり、「change」を押すと設定画面が開きます。<br>
+    <img src="img/monkeytype_custom機能2.jpg"><br>
+    【設定項目の説明】<br>
+    1．出題したい単語（文章）を貼り付けます<br>
+    2．単語をランダムに出題したい場合は、このRandomにチェックを入れ、出題形式（ワード数or秒数）を指定します<br>
+    3．1で改行区切りで貼り付けた場合、ここにチェックを入れることで自動的にスペース区切りに変換してくれます<br>
+    4．現在のワードセットを名前付きで保存します<br>
+    5．保存したワードセットを呼び出します<br>
+
+    <br>
+    <h3><u>6．あとはひたすら練習すべし！</u></h3>
+    ～wpmが出るまで練習するなど、目標を決めて練習するのもよいと思います。
+
+    <!--ここにトップページへのリンク-->
+    <br><br><br>
+    <hr>
+    <br>
+    <a href="index.html">- Top Page -</a><br><br>
+</body>
+
+</html>
